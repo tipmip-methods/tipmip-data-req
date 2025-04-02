@@ -72,11 +72,14 @@ Efx,slthick,Thickness of Soil Layers,cell_thickness,m,LPfx/slthick,Efx/slthick,F
 Efx,wilt,Wilting Point,volume_fraction_of_condensed_water_in_soil_at_wilting_point,%,LPfx/wilt,Efx/wilt,FALSE
 Lmon,baresoilFrac,Bare Soil Percentage Area Coverage,area_fraction,%,LPmon/baresoilFrac,Lmon/baresoilFrac,TRUE
 Lmon,burntFractionAll,Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes),area_fraction,%,LPmon/burntFractionAll,Lmon/burntFractionAll,TRUE
+Lmon,c3PftFrac,Percentage Cover by C3 Plant Functional Type,area_fraction,%,LPmon/c3PftFrac,Lmon/c3PftFrac,TRUE
+Lmon,c4PftFrac,Percentage Cover by C4 Plant Functional Type,area_fraction,%,LPmon/c4PftFrac,Lmon/c4PftFrac,TRUE
 Emon,cLand,Total Carbon in All Terrestrial Carbon Pools,mass_content_of_carbon_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products,kg m-2,LPmon/cLand,Emon/cLand,FALSE
 Lmon,cLeaf,Carbon Mass in Leaves,leaf_mass_content_of_carbon,kg m-2,LPmon/cLeaf,Lmon/cLeaf,FALSE
 Lmon,cLitter,Carbon Mass in Litter Pool,litter_mass_content_of_carbon,kg m-2,LPmon/cLitter,Lmon/cLitter,TRUE
 Lmon,cProduct,Carbon Mass in Products of Land-Use Change,carbon_mass_content_of_forestry_and_agricultural_products,kg m-2,LPmon/cProduct,Lmon/cProduct,TRUE
 Lmon,cRoot,Carbon Mass in Roots,root_mass_content_of_carbon,kg m-2,LPmon/cRoot,Lmon/cRoot,FALSE
+Lmon,cropFrac,Percentage Crop Cover,area_fraction,%,LPmon/cropFrac,Lmon/cropFrac,TRUE
 Emon,cSoil,Carbon Mass in Model Soil Pool,soil_mass_content_of_carbon,kg m-2,LPmon/cSoil,Emon/cSoil,TRUE
 Emon,cSoilLevels,Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level),soil_mass_content_of_carbon,kg m-2,LPmon/cSoilLevels,Emon/cSoilLevels,FALSE
 Lmon,cVeg,Carbon Mass in Vegetation,vegetation_carbon_content,kg m-2,LPmon/cVeg,Lmon/cVeg,TRUE
@@ -95,6 +98,7 @@ Emon,fLuc,Net Carbon Mass Flux into Atmosphere Due to Land-Use Change [kgC m-2 s
 Emon,fNdep,Dry and Wet Deposition of Reactive Nitrogen onto Land,minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition,kg m-2 s-1,LPmon/fNdep,Emon/fNdep,FALSE
 Lmon,fVegLitter,Total Carbon Mass Flux from Vegetation to Litter,mass_flux_of_carbon_into_litter_from_vegetation,kg m-2 s-1,LPmon/fVegLitter,Lmon/fVegLitter,TRUE
 Lmon,gpp,Carbon Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1],gross_primary_productivity_of_biomass_expressed_as_carbon,kg m-2 s-1,LPmon/gpp,Lmon/gpp,TRUE
+Lmon,grassFrac,Natural Grass Area Percentage,area_fraction,%,LPmon/grassFrac,Lmon/grassFrac,TRUE
 Lmon,lai,Leaf Area Index,leaf_area_index,1,LPmon/lai,Lmon/lai,TRUE
 Lmon,landCoverFrac,Percentage of Area by Vegetation or Land-Cover Category,area_fraction,%,LPmon/landCoverFrac,Lmon/landCoverFrac,FALSE
 Lmon,mrro,Total Runoff,runoff_flux,kg m-2 s-1,LPmon/mrro,Lmon/mrro,TRUE
@@ -107,13 +111,20 @@ Lmon,nbp,Carbon Mass Flux out of Atmosphere Due to Net Biospheric Production on 
 Emon,nep,Net Carbon Mass Flux out of Atmosphere Due to Net Ecosystem Productivity on Land [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes_excluding_anthropogenic_land_use_change,kg m-2 s-1,LPmon/nep,Emon/nep,TRUE
 Emon,netAtmosLandCO2Flux,Net Flux of CO2 Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes,kg m-2 s-1,LPmon/netAtmosLandCO2Flux,Emon/netAtmosLandCO2Flux,FALSE
 Lmon,npp,Net Primary Production on Land as Carbon Mass Flux [kgC m-2 s-1],net_primary_productivity_of_biomass_expressed_as_carbon,kg m-2 s-1,LPmon/npp,Lmon/npp,TRUE
+Emon,nwdFracLut,Non-Woody Vegetation Percentage Cover,area_fraction,%,LPmon/nwdFracLut,Emon/nwdFracLut,TRUE
 Emon,orog,Surface Altitude,surface_altitude,m,LPmon/ororg,Emon/orog,TRUE
+Lmon,pastureFrac,Percentage of Land Which Is Anthropogenic Pasture,area_fraction,%,LPmon/pastureFrac,Lmon/pastureFrac,TRUE
 Lmon,ra,Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration,kg m-2 s-1,LPmon/ra,Lmon/ra,TRUE
+Lmon,residualFrac,Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil,area_fraction,%,LPmon/residualFrac,Lmon/residualFrac,TRUE
 Lmon,rh,Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration,kg m-2 s-1,LPmon/rh,Lmon/rh,TRUE
 Emon,rhSoil,Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land,surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil,kg m-2 s-1,LPmon/rhSoil,Emon/rhSoil,FALSE
 LImon,sftgif,Land Ice Area Percentage,land_ice_area_fraction,%,LPmon/sftgif,LImon/sftgif,TRUE
+Lmon,shrubFrac,Percentage Cover by Shrub,area_fraction,%,LPmon/shrubFrac,Lmon/shrubFrac,TRUE
 Lmon,tran,Transpiration,transpiration_flux,kg m-2 s-1,LPmon/tran,Lmon/tran,TRUE
+Lmon,treeFrac,Tree Cover Percentage,area_fraction,%,LPmon/treeFrac,Lmon/treeFrac,TRUE
 Lmon,tsl,Temperature of Soil,soil_temperature,K,LPmon/tsl,Lmon/tsl,FALSE
+Emon,vegFrac,Total Vegetated Percentage Cover,area_fraction,%,LPmon/vegFrac,Emon/vegFrac,TRUE
+Emon,wetlandFrac,Wetland Percentage Cover,area_fraction,%,LPmon/wetlandFrac,Emon/wetlandFrac,TRUE
 Oday,tos,Sea Surface Temperature,sea_surface_temperature,degC,OPday/tos,Oday/tos,TRUE
 Omon,evs,Water Evaporation Flux Where Ice Free Ocean over Sea,water_evapotranspiration_flux,kg m-2 s-1,OPmon/evs,Omon/evs,FALSE
 Omon,friver,Water Flux into Sea Water from Rivers,water_flux_into_sea_water_from_rivers,kg m-2 s-1,OPmon/friver,Omon/friver,FALSE
