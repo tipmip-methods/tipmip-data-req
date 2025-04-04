@@ -1,160 +1,273 @@
-cmip6_table,name,long_name,std_name,units,cmip6plus_key,cmip6_key,in_cmip_core
-Emon,depdust,Total Deposition Rate of Dust,minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_deposition,kg m-2 s-1,AEmon/depdust,Emon/depdust,FALSE
-day,hurs,Near-Surface Relative Humidity,relative_humidity,%,APday/hurs,day/hurs,TRUE
-day,huss,Near-Surface Specific Humidity,specific_humidity,1,APday/huss,day/huss,TRUE
-day,pr,Precipitation,precipitation_flux,kg m-2 s-1,APday/pr,day/pr,TRUE
-day,prc,Convective Precipitation,convective_precipitation_flux,kg m-2 s-1,APday/prc,day/prc,TRUE
-Eday,prra,Rainfall Flux over Land,rainfall_flux,kg m-2 s-1,APday/prra,Eday/prra,FALSE
-day,prsn,Snowfall Flux,snowfall_flux,kg m-2 s-1,APday/prsn,day/prsn,TRUE
-CFday,ps,Surface Air Pressure,surface_air_pressure,Pa,APday/ps,CFday/ps,FALSE
-day,rlds,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,W m-2,APday/rlds,day/rlds,TRUE
-day,rlus,Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,W m-2,APday/rlus,day/rlus,TRUE
-day,rsds,Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,W m-2,APday/rsds,day/rsds,TRUE
-day,rsus,Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,W m-2,APday/rsus,day/rsus,TRUE
-day,sfcWind,Daily-Mean Near-Surface Wind Speed,wind_speed,m s-1,APday/sfcWind,day/sfcWind,TRUE
-day,tas,Near-Surface Air Temperature,air_temperature,K,APday/tas,day/tas,TRUE
-day,tasmax,Daily Maximum Near-Surface Air Temperature,air_temperature,K,APday/tasmax,day/tasmax,TRUE
-day,tasmin,Daily Minimum Near-Surface Air Temperature,air_temperature,K,APday/tasmin,day/tasmin,TRUE
-Eday,ts,Surface Temperature,surface_temperature,K,APday/ts,Eday/ts,FALSE
-day,uas,Eastward Near-Surface Wind,eastward_wind,m s-1,APday/uas,day/uas,TRUE
-day,vas,Northward Near-Surface Wind,northward_wind,m s-1,APday/vas,day/vas,TRUE
-fx,sftlf,Percentage of the Grid Cell Occupied by Land (Including Lakes),land_area_fraction,%,APfx/sftlf,fx/sftlf,FALSE
-Amon,co2,Mole Fraction of CO2,mole_fraction_of_carbon_dioxide_in_air,mol mol-1,APmon/co2,Amon/co2,TRUE
-Emon,co2s,Atmosphere CO2,mole_fraction_of_carbon_dioxide_in_air,0.000001,APmon/co2s,Emon/co2s,FALSE
-Amon,evspsbl,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,kg m-2 s-1,APmon/evspsbl,Amon/evspsbl,TRUE
-Amon,hfls,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,W m-2,APmon/hfls,Amon/hfls,TRUE
-Amon,hfss,Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,W m-2,APmon/hfss,Amon/hfss,TRUE
-Amon,huss,Near-Surface Specific Humidity,specific_humidity,1,APmon/huss,Amon/huss,TRUE
-Amon,pr,Precipitation,precipitation_flux,kg m-2 s-1,APmon/pr,Amon/pr,TRUE
-Amon,prsn,Snowfall Flux,snowfall_flux,kg m-2 s-1,APmon/prsn,Amon/prsn,TRUE
-Amon,ps,Surface Air Pressure,surface_air_pressure,Pa,APmon/ps,Amon/ps,TRUE
-Amon,psl,Sea Level Pressure,air_pressure_at_mean_sea_level,Pa,APmon/psl,Amon/psl,TRUE
-Amon,rlds,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,W m-2,APmon/rlds,Amon/rlds,TRUE
-Amon,rlus,Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,W m-2,APmon/rlus,Amon/rlus,TRUE
-Amon,rsds,Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,W m-2,APmon/rsds,Amon/rsds,TRUE
-Amon,rsus,Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,W m-2,APmon/rsus,Amon/rsus,TRUE
-Amon,sfcWind,Near-Surface Wind Speed,wind_speed,m s-1,APmon/sfcWind,Amon/sfcWind,TRUE
-Emon,sfcWindmax,Daily Maximum Near-Surface Wind Speed,wind_speed,m s-1,APmon/sfcWindmax,Emon/sfcWindmax,FALSE
-Amon,tas,Near-Surface Air Temperature,air_temperature,K,APmon/tas,Amon/tas,TRUE
-Amon,ts,Surface Temperature,surface_temperature,K,APmon/ts,Amon/ts,TRUE
-IfxGre,hfgeoubed,Geothermal Heat Flux Beneath Land Ice,upward_geothermal_heat_flux_at_ground_level_in_land_ice,W m-2,GIGfx/hfgeoubed,IfxGre/hfgeoubed,FALSE
-IfxGre,lithk,Ice Sheet Thickness,land_ice_thickness,m,GIGfx/lithk,IfxGre/lithk,FALSE
-IfxGre,topg,Bedrock Altitude,bedrock_altitude,m,GIGfx/topg,IfxGre/topg,FALSE
-ImonGre,hfls,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,W m-2,GIGmon/hfls,ImonGre/hfls,FALSE
-ImonGre,prra,Rainfall Flux over Land Ice,rainfall_flux,kg m-2 s-1,GIGmon/prra,ImonGre/prra,FALSE
-ImonGre,prsn,Snowfall Flux,snowfall_flux,kg m-2 s-1,GIGmon/prsn,ImonGre/prsn,FALSE
-ImonGre,snicem,Surface Snow and Ice Melt Flux,surface_snow_and_ice_melt_flux,kg m-2 s-1,GIGmon/snicem,ImonGre/snicem,FALSE
-day,snw,Surface Snow Amount,surface_snow_amount,kg m-2,LIday/snw,day/snw,TRUE
-LImon,acabfIs,Ice Sheet Surface Mass Balance Flux,land_ice_surface_specific_mass_balance_flux,kg m-2 s-1,LImon/acabfIs,LImon/acabfIs,FALSE
-LImon,hflsIs,Ice Sheet Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,W m-2,LImon/hflsIs,LImon/hflsIs,FALSE
-LImon,hfssIs,Ice Sheet Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,W m-2,LImon/hfssIs,LImon/hfssIs,FALSE
-LImon,orogIs,Ice Sheet Surface Altitude,surface_altitude,m,LImon/orogIs,LImon/orogIs,FALSE
-LImon,rldsIs,Ice Sheet Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,W m-2,LImon/rldsIs,LImon/rldsIs,FALSE
-LImon,rlusIs,Ice Sheet Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,W m-2,LImon/rlusIs,LImon/rlusIs,FALSE
-LImon,rsdsIs,Ice Sheet Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,W m-2,LImon/rsdsIs,LImon/rsdsIs,FALSE
-LImon,rsusIs,Ice Sheet Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,W m-2,LImon/rsusIs,LImon/rsusIs,FALSE
-LImon,sbl,Surface Snow and Ice Sublimation Flux,tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice,kg m-2 s-1,LImon/sbl,LImon/sbl,TRUE
-Amon,sbl,Surface Snow and Ice Sublimation Flux,tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice,kg m-2 s-1,LImon/sbl,Amon/sbl,TRUE
-LImon,sftflf,Floating Ice Shelf Area Percentage,floating_ice_shelf_area_fraction,%,LImon/sftflf,LImon/sftflf,TRUE
-LImon,sftgrf,Grounded Ice Sheet Area Percentage,grounded_ice_sheet_area_fraction,%,LImon/sftgrf,LImon/sftgrf,TRUE
-LImon,snc,Snow Area Percentage,surface_snow_area_fraction,%,LImon/snc,LImon/snc,TRUE
-LImon,snd,Snow Depth,surface_snow_thickness,m,LImon/snd,LImon/snd,TRUE
-LImon,snw,Surface Snow Amount,surface_snow_amount,kg m-2,LImon/snw,LImon/snw,TRUE
-LImon,tsn,Snow Internal Temperature,temperature_in_surface_snow,K,LImon/tsn,LImon/tsn,TRUE
-Eday,albsn,Snow Albedo,surface_albedo,1,LPday/alsbn,Eday/albsn,FALSE
-Eday,mrrob,Subsurface Runoff,subsurface_runoff_flux,kg m-2 s-1,LPday/mrrob,Eday/mrrob,FALSE
-day,mrso,Total Soil Moisture Content,mass_content_of_water_in_soil,kg m-2,LPday/mrso,day/mrso,TRUE
-day,mrsos,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,kg m-2,LPday/mrsos,day/mrsos,TRUE
-Efx,fldcapacity,Field Capacity,volume_fraction_of_condensed_water_in_soil_at_field_capacity,%,LPfx/fldcapacity,Efx/fldcapacity,FALSE
-fx,mrsofc,Capacity of Soil to Store Water (Field Capacity),soil_moisture_content_at_field_capacity,kg m-2,LPfx/mrsofc,fx/mrsofc,FALSE
-fx,rootd,Maximum Root Depth,root_depth,m,LPfx/rootd,fx/rootd,FALSE
-Efx,slthick,Thickness of Soil Layers,cell_thickness,m,LPfx/slthick,Efx/slthick,FALSE
-Efx,wilt,Wilting Point,volume_fraction_of_condensed_water_in_soil_at_wilting_point,%,LPfx/wilt,Efx/wilt,FALSE
-Lmon,baresoilFrac,Bare Soil Percentage Area Coverage,area_fraction,%,LPmon/baresoilFrac,Lmon/baresoilFrac,TRUE
-Lmon,burntFractionAll,Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes),area_fraction,%,LPmon/burntFractionAll,Lmon/burntFractionAll,TRUE
-Lmon,c3PftFrac,Percentage Cover by C3 Plant Functional Type,area_fraction,%,LPmon/c3PftFrac,Lmon/c3PftFrac,TRUE
-Lmon,c4PftFrac,Percentage Cover by C4 Plant Functional Type,area_fraction,%,LPmon/c4PftFrac,Lmon/c4PftFrac,TRUE
-Emon,cLand,Total Carbon in All Terrestrial Carbon Pools,mass_content_of_carbon_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products,kg m-2,LPmon/cLand,Emon/cLand,FALSE
-Lmon,cLeaf,Carbon Mass in Leaves,leaf_mass_content_of_carbon,kg m-2,LPmon/cLeaf,Lmon/cLeaf,FALSE
-Lmon,cLitter,Carbon Mass in Litter Pool,litter_mass_content_of_carbon,kg m-2,LPmon/cLitter,Lmon/cLitter,TRUE
-Lmon,cProduct,Carbon Mass in Products of Land-Use Change,carbon_mass_content_of_forestry_and_agricultural_products,kg m-2,LPmon/cProduct,Lmon/cProduct,TRUE
-Lmon,cRoot,Carbon Mass in Roots,root_mass_content_of_carbon,kg m-2,LPmon/cRoot,Lmon/cRoot,FALSE
-Lmon,cropFrac,Percentage Crop Cover,area_fraction,%,LPmon/cropFrac,Lmon/cropFrac,TRUE
-Emon,cSoil,Carbon Mass in Model Soil Pool,soil_mass_content_of_carbon,kg m-2,LPmon/cSoil,Emon/cSoil,TRUE
-Emon,cSoilLevels,Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level),soil_mass_content_of_carbon,kg m-2,LPmon/cSoilLevels,Emon/cSoilLevels,FALSE
-Lmon,cVeg,Carbon Mass in Vegetation,vegetation_carbon_content,kg m-2,LPmon/cVeg,Lmon/cVeg,TRUE
-Emon,cWood,Carbon Mass in Wood,stem_mass_content_of_carbon,kg m-2,LPmon/cWood,Emon/cWood,FALSE
-Emon,evspsblpot,Potential Evapotranspiration,water_potential_evaporation_flux,kg m-2 s-1,LPmon/evspsblpot,Emon/evspsblpot,FALSE
-Lmon,evspsblsoi,Water Evaporation from Soil,water_evaporation_flux_from_soil,kg m-2 s-1,LPmon/evspsblsoi,Lmon/evspsblsoi,TRUE
-Lmon,evspsblveg,Evaporation from Canopy,water_evaporation_flux_from_canopy,kg m-2 s-1,LPmon/evspsblveg,Lmon/evspsblveg,TRUE
-Emon,fAnthDisturb,"Carbon Mass Flux from Vegetation, Litter or Soil Pools into the Atmosphere Due to any Human Activity [kgC m-2 s-1]",tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission,kg m-2 s-1,LPmon/fAnthDisturb,Emon/fAnthDisturb,FALSE
-Emon,fDeforestToAtmos,Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1],surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change,kg m-2 s-1,LPmon/fDeforestToAtmos,Emon/fDeforestToAtmos,FALSE
-Emon,fDeforestToProduct,Deforested Biomass That Goes into Product Pool as a Result of Anthropogenic Land-Use Change,carbon_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change,kg m-2 s-1,LPmon/fDeforestToProduct,Emon/fDeforestToProduct,FALSE
-Lmon,fFire,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Excluding Land-Use Change [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires_excluding_anthropogenic_land_use_change,kg m-2 s-1,LPmon/fFire,Lmon/fFire,TRUE
-Emon,fFireAll,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Including All Sources [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires,kg m-2 s-1,LPmon/fFireAll,Emon/fFireAll,FALSE
-Emon,fFireNat,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Natural Fire [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_fires,kg m-2 s-1,LPmon/fFireNat,Emon/fFireNat,FALSE
-Lmon,fLitterSoil,Total Carbon Mass Flux from Litter to Soil,carbon_mass_flux_into_soil_from_litter,kg m-2 s-1,LPmon/fLitterSoil,Lmon/fLitterSoil,TRUE
-Emon,fLuc,Net Carbon Mass Flux into Atmosphere Due to Land-Use Change [kgC m-2 s-1],surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change,kg m-2 s-1,LPmon/fLuc,Emon/fLuc,TRUE
-Emon,fNdep,Dry and Wet Deposition of Reactive Nitrogen onto Land,minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition,kg m-2 s-1,LPmon/fNdep,Emon/fNdep,FALSE
-Lmon,fVegLitter,Total Carbon Mass Flux from Vegetation to Litter,mass_flux_of_carbon_into_litter_from_vegetation,kg m-2 s-1,LPmon/fVegLitter,Lmon/fVegLitter,TRUE
-Lmon,gpp,Carbon Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1],gross_primary_productivity_of_biomass_expressed_as_carbon,kg m-2 s-1,LPmon/gpp,Lmon/gpp,TRUE
-Lmon,grassFrac,Natural Grass Area Percentage,area_fraction,%,LPmon/grassFrac,Lmon/grassFrac,TRUE
-Lmon,lai,Leaf Area Index,leaf_area_index,1,LPmon/lai,Lmon/lai,TRUE
-Lmon,landCoverFrac,Percentage of Area by Vegetation or Land-Cover Category,area_fraction,%,LPmon/landCoverFrac,Lmon/landCoverFrac,FALSE
-Lmon,mrro,Total Runoff,runoff_flux,kg m-2 s-1,LPmon/mrro,Lmon/mrro,TRUE
-Lmon,mrros,Surface Runoff,surface_runoff_flux,kg m-2 s-1,LPmon/mrros,Lmon/mrros,TRUE
-Emon,mrsfl,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,kg m-2,LPmon/mrsfl,Emon/mrsfl,FALSE
-Emon,mrsll,Liquid Water Content of Soil Layer,liquid_water_content_of_soil_layer,kg m-2,LPmon/mrsll,Emon/mrsll,FALSE
-Lmon,mrso,Total Soil Moisture Content,mass_content_of_water_in_soil,kg m-2,LPmon/mrso,Lmon/mrso,TRUE
-Emon,mrsol,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,kg m-2,LPmon/mrsol,Emon/mrsol,TRUE
-Lmon,nbp,Carbon Mass Flux out of Atmosphere Due to Net Biospheric Production on Land [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes,kg m-2 s-1,LPmon/nbp,Lmon/nbp,TRUE
-Emon,nep,Net Carbon Mass Flux out of Atmosphere Due to Net Ecosystem Productivity on Land [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes_excluding_anthropogenic_land_use_change,kg m-2 s-1,LPmon/nep,Emon/nep,TRUE
-Emon,netAtmosLandCO2Flux,Net Flux of CO2 Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes,kg m-2 s-1,LPmon/netAtmosLandCO2Flux,Emon/netAtmosLandCO2Flux,FALSE
-Lmon,npp,Net Primary Production on Land as Carbon Mass Flux [kgC m-2 s-1],net_primary_productivity_of_biomass_expressed_as_carbon,kg m-2 s-1,LPmon/npp,Lmon/npp,TRUE
-Emon,nwdFracLut,Non-Woody Vegetation Percentage Cover,area_fraction,%,LPmon/nwdFracLut,Emon/nwdFracLut,TRUE
-Emon,orog,Surface Altitude,surface_altitude,m,LPmon/ororg,Emon/orog,TRUE
-Lmon,pastureFrac,Percentage of Land Which Is Anthropogenic Pasture,area_fraction,%,LPmon/pastureFrac,Lmon/pastureFrac,TRUE
-Lmon,ra,Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration,kg m-2 s-1,LPmon/ra,Lmon/ra,TRUE
-Lmon,residualFrac,Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil,area_fraction,%,LPmon/residualFrac,Lmon/residualFrac,TRUE
-Lmon,rh,Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration,kg m-2 s-1,LPmon/rh,Lmon/rh,TRUE
-Emon,rhSoil,Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land,surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil,kg m-2 s-1,LPmon/rhSoil,Emon/rhSoil,FALSE
-LImon,sftgif,Land Ice Area Percentage,land_ice_area_fraction,%,LPmon/sftgif,LImon/sftgif,TRUE
-Lmon,shrubFrac,Percentage Cover by Shrub,area_fraction,%,LPmon/shrubFrac,Lmon/shrubFrac,TRUE
-Lmon,tran,Transpiration,transpiration_flux,kg m-2 s-1,LPmon/tran,Lmon/tran,TRUE
-Lmon,treeFrac,Tree Cover Percentage,area_fraction,%,LPmon/treeFrac,Lmon/treeFrac,TRUE
-Lmon,tsl,Temperature of Soil,soil_temperature,K,LPmon/tsl,Lmon/tsl,FALSE
-Emon,vegFrac,Total Vegetated Percentage Cover,area_fraction,%,LPmon/vegFrac,Emon/vegFrac,TRUE
-Emon,wetlandFrac,Wetland Percentage Cover,area_fraction,%,LPmon/wetlandFrac,Emon/wetlandFrac,TRUE
-Oday,tos,Sea Surface Temperature,sea_surface_temperature,degC,OPday/tos,Oday/tos,TRUE
-Omon,evs,Water Evaporation Flux Where Ice Free Ocean over Sea,water_evapotranspiration_flux,kg m-2 s-1,OPmon/evs,Omon/evs,FALSE
-Omon,friver,Water Flux into Sea Water from Rivers,water_flux_into_sea_water_from_rivers,kg m-2 s-1,OPmon/friver,Omon/friver,FALSE
-Omon,hfds,Downward Heat Flux at Sea Water Surface,surface_downward_heat_flux_in_sea_water,W m-2,OPmon/hfds,Omon/hfds,TRUE
-Omon,hfx,Ocean Heat X Transport,ocean_heat_x_transport,W,OPmon/hfx,Omon/hfx,FALSE
-Omon,hfy,Ocean Heat Y Transport,ocean_heat_y_transport,W,OPmon/hfy,Omon/hfy,FALSE
-Omon,masso,Sea Water Mass,sea_water_mass,kg,OPmon/masso,Omon/masso,TRUE
-Omon,mlotst,Ocean Mixed Layer Thickness Defined by Sigma T,ocean_mixed_layer_thickness_defined_by_sigma_t,m,OPmon/mlotst,Omon/mlotst,TRUE
-Omon,mlotstmax,Maximum Ocean Mixed Layer Thickness Defined by Sigma T,ocean_mixed_layer_thickness_defined_by_sigma_t,m,OPmon/mlotstmax,Omon/mlotstmax,TRUE
-Omon,mlotstmin,Minimum Ocean Mixed Layer Thickness Defined by Sigma T,ocean_mixed_layer_thickness_defined_by_sigma_t,m,OPmon/mlotstmin,Omon/mlotstmin,TRUE
-Omon,msftbarot,Ocean Barotropic Mass Streamfunction,ocean_barotropic_mass_streamfunction,kg s-1,OPmon/msftbarot,Omon/msftbarot,TRUE
-Omon,pbo,Sea Water Pressure at Sea Floor,sea_water_pressure_at_sea_floor,Pa,OPmon/pbo,Omon/pbo,TRUE
-Omon,sos,Sea Surface Salinity,sea_surface_salinity,0.001,OPmon/sos,Omon/sos,TRUE
-Omon,tos,Sea Surface Temperature,sea_surface_temperature,degC,OPmon/tos,Omon/tos,TRUE
-Omon,volo,Sea Water Volume,sea_water_volume,m3,OPmon/volo,Omon/volo,TRUE
-Omon,wfo,Water Flux into Sea Water,water_flux_into_sea_water,kg m-2 s-1,OPmon/wfo,Omon/wfo,TRUE
-Omon,zos,Sea Surface Height Above Geoid,sea_surface_height_above_geoid,m,OPmon/zos,Omon/zos,TRUE
-Omon,masscello,Ocean Grid-Cell Mass per Area,sea_water_mass_per_unit_area,kg m-2,OPmonLev/masscello,Omon/masscello,TRUE
-Omon,msftyz,Ocean Y Overturning Mass Streamfunction,ocean_y_overturning_mass_streamfunction,kg s-1,OPmonLev/msftyz,Omon/msftyz,TRUE
-Omon,so,Sea Water Salinity,sea_water_salinity,0.001,OPmonLev/so,Omon/so,TRUE
-Omon,thetao,Sea Water Potential Temperature,sea_water_potential_temperature,degC,OPmonLev/thetao,Omon/thetao,TRUE
-Omon,thkcello,Ocean Model Cell Thickness,cell_thickness,m,OPmonLev/thkcello,Omon/thkcello,FALSE
-Omon,umo,Ocean Mass X Transport,ocean_mass_x_transport,kg s-1,OPmonLev/umo,Omon/umo,TRUE
-Omon,uo,Sea Water X Velocity,sea_water_x_velocity,m s-1,OPmonLev/uo,Omon/uo,TRUE
-Omon,vmo,Ocean Mass Y Transport,ocean_mass_y_transport,kg s-1,OPmonLev/vmo,Omon/vmo,TRUE
-Omon,vo,Sea Water Y Velocity,sea_water_y_velocity,m s-1,OPmonLev/vo,Omon/vo,TRUE
-Omon,hfbasin,Northward Ocean Heat Transport,northward_ocean_heat_transport,W,OPmonZ/hfbasin,Omon/hfbasin,TRUE
-Omon,hfbasinpmadv,Northward Ocean Heat Transport Due to Parameterized Mesoscale Advection,northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_advection,W,OPmonZ/hfbasinpmadv,Omon/hfbasinpmadv,TRUE
-Omon,htovgyre,Northward Ocean Heat Transport Due to Gyre,northward_ocean_heat_transport_due_to_gyre,W,OPmonZ/htovgyre,Omon/htovgyre,FALSE
-Omon,htovovrt,Northward Ocean Heat Transport Due to Overturning,northward_ocean_heat_transport_due_to_overturning,W,OPmonZ/htovovrt,Omon/htovovrt,FALSE
-Omon,msftmz,Ocean Meridional Overturning Mass Streamfunction,ocean_meridional_overturning_mass_streamfunction,kg s-1,OPmonZ/msftmz,Omon/msftmz,TRUE
-Omon,sltovgyre,Northward Ocean Salt Transport Due to Gyre,northward_ocean_salt_transport_due_to_gyre,kg s-1,OPmonZ/sltovgyre,Omon/sltovgyre,FALSE
-Omon,sltovovrt,Northward Ocean Salt Transport Due to Overturning,northward_ocean_salt_transport_due_to_overturning,kg s-1,OPmonZ/sltovovrt,Omon/sltovovrt,FALSE
+variable_group,cmip6_table,name,long_name,std_name,units,cmip6plus_key,cmip6_key,in_cmip_core
+forcing,Emon,depdust,Total Deposition Rate of Dust,minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_deposition,kg m-2 s-1,AEmon/depdust,Emon/depdust,FALSE
+esm-diagnostic,Amon,cl,Percentage Cloud Cover,cloud_area_fraction_in_atmosphere_layer,%,Amon/cl,APmonLev/cl,TRUE
+esm-diagnostic,Amon,cli,Mass Fraction of Cloud Ice,mass_fraction_of_cloud_ice_in_air,kg kg-1,Amon/cli,APmonLev/cli,TRUE
+esm-diagnostic,Amon,clivi,Ice Water Path,atmosphere_mass_content_of_cloud_ice,kg m-2,Amon/clivi,APmon/clivi,TRUE
+esm-diagnostic,Amon,clt,Total Cloud Cover Percentage,cloud_area_fraction,%,Amon/clt,APmon/clt,TRUE
+esm-diagnostic,Amon,clw,Mass Fraction of Cloud Liquid Water,mass_fraction_of_cloud_liquid_water_in_air,kg kg-1,Amon/clw,APmonLev/clw,TRUE
+esm-diagnostic,Amon,clwvi,Condensed Water Path,atmosphere_mass_content_of_cloud_condensed_water,kg m-2,Amon/clwvi,APmon/clwvi,TRUE
+esm-diagnostic,Amon,fco2antt,Carbon Mass Flux into Atmosphere Due to All Anthropogenic Emissions of CO2 [kgC m-2 s-1],tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission,kg m-2 s-1,Amon/fco2antt,APmon/fco2antt,TRUE
+esm-diagnostic,Amon,fco2nat,Surface Carbon Mass Flux into the Atmosphere Due to Natural Sources [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_sources,kg m-2 s-1,Amon/fco2nat,APmon/fco2nat,TRUE
+esm-diagnostic,Amon,hur,Relative Humidity,relative_humidity,%,Amon/hur,APmon/hur,TRUE
+esm-diagnostic,Amon,hurs,Near-Surface Relative Humidity,relative_humidity,%,Amon/hurs,APmon/hurs,TRUE
+esm-diagnostic,Amon,hus,Specific Humidity,specific_humidity,1,Amon/hus,APmon/hus19,TRUE
+esm-diagnostic,Amon,prc,Convective Precipitation,convective_precipitation_flux,kg m-2 s-1,Amon/prc,APmon/prc,TRUE
+esm-diagnostic,Amon,prw,Water Vapor Path,atmosphere_mass_content_of_water_vapor,kg m-2,Amon/prw,APmon/prw,TRUE
+esm-diagnostic,Amon,rldscs,Surface Downwelling Clear-Sky Longwave Radiation,surface_downwelling_longwave_flux_in_air_assuming_clear_sky,W m-2,Amon/rldscs,APmon/rldscs,TRUE
+esm-diagnostic,Amon,rlut,TOA Outgoing Longwave Radiation,toa_outgoing_longwave_flux,W m-2,Amon/rlut,APmon/rlut,TRUE
+esm-diagnostic,Amon,rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,toa_outgoing_longwave_flux_assuming_clear_sky,W m-2,Amon/rlutcs,APmon/rlutcs,TRUE
+esm-diagnostic,Amon,rsdscs,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,W m-2,Amon/rsdscs,APmon/rsdscs,TRUE
+esm-diagnostic,Amon,rsdt,TOA Incident Shortwave Radiation,toa_incoming_shortwave_flux,W m-2,Amon/rsdt,APmon/rsdt,TRUE
+esm-diagnostic,Amon,rsuscs,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,W m-2,Amon/rsuscs,APmon/rsuscs,TRUE
+esm-diagnostic,Amon,rsut,TOA Outgoing Shortwave Radiation,toa_outgoing_shortwave_flux,W m-2,Amon/rsut,APmon/rsut,TRUE
+esm-diagnostic,Amon,rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,toa_outgoing_shortwave_flux_assuming_clear_sky,W m-2,Amon/rsutcs,APmon/rsutcs,TRUE
+esm-diagnostic,Amon,ta,Air Temperature,air_temperature,K,Amon/ta,APmon/ta,TRUE
+esm-diagnostic,Amon,tasmax,Daily Maximum Near-Surface Air Temperature,air_temperature,K,Amon/tasmax,APmon/tasmax,TRUE
+esm-diagnostic,Amon,tasmin,Daily Minimum Near-Surface Air Temperature,air_temperature,K,Amon/tasmin,APmon/tasmin,TRUE
+esm-diagnostic,Amon,tauu,Surface Downward Eastward Wind Stress,surface_downward_eastward_stress,Pa,Amon/tauu,APmon/tauu,TRUE
+esm-diagnostic,Amon,tauv,Surface Downward Northward Wind Stress,surface_downward_northward_stress,Pa,Amon/tauv,APmon/tauv,TRUE
+esm-diagnostic,Amon,ua,Eastward Wind,eastward_wind,m s-1,Amon/ua,APmon/ua19,TRUE
+esm-diagnostic,Amon,uas,Eastward Near-Surface Wind,eastward_wind,m s-1,Amon/uas,APmon/uas,TRUE
+esm-diagnostic,Amon,va,Northward Wind,northward_wind,m s-1,Amon/va,APmon/va19,TRUE
+esm-diagnostic,Amon,vas,Northward Near-Surface Wind,northward_wind,m s-1,Amon/vas,APmon/vas,TRUE
+esm-diagnostic,Amon,wap,Omega (=dp/dt),lagrangian_tendency_of_air_pressure,Pa s-1,Amon/wap,APmon/wap,TRUE
+esm-diagnostic,Amon,zg,Geopotential Height,geopotential_height,m,Amon/zg,APmon/zg,TRUE
+forcing,day,hurs,Near-Surface Relative Humidity,relative_humidity,%,APday/hurs,day/hurs,TRUE
+forcing,day,huss,Near-Surface Specific Humidity,specific_humidity,1,APday/huss,day/huss,TRUE
+forcing,day,pr,Precipitation,precipitation_flux,kg m-2 s-1,APday/pr,day/pr,TRUE
+forcing,day,prc,Convective Precipitation,convective_precipitation_flux,kg m-2 s-1,APday/prc,day/prc,TRUE
+forcing,Eday,prra,Rainfall Flux over Land,rainfall_flux,kg m-2 s-1,APday/prra,Eday/prra,FALSE
+forcing,day,prsn,Snowfall Flux,snowfall_flux,kg m-2 s-1,APday/prsn,day/prsn,TRUE
+forcing,CFday,ps,Surface Air Pressure,surface_air_pressure,Pa,APday/ps,CFday/ps,FALSE
+forcing,day,rlds,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,W m-2,APday/rlds,day/rlds,TRUE
+forcing,day,rlus,Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,W m-2,APday/rlus,day/rlus,TRUE
+forcing,day,rsds,Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,W m-2,APday/rsds,day/rsds,TRUE
+forcing,day,rsus,Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,W m-2,APday/rsus,day/rsus,TRUE
+forcing,day,sfcWind,Daily-Mean Near-Surface Wind Speed,wind_speed,m s-1,APday/sfcWind,day/sfcWind,TRUE
+forcing,day,tas,Near-Surface Air Temperature,air_temperature,K,APday/tas,day/tas,TRUE
+forcing,day,tasmax,Daily Maximum Near-Surface Air Temperature,air_temperature,K,APday/tasmax,day/tasmax,TRUE
+forcing,day,tasmin,Daily Minimum Near-Surface Air Temperature,air_temperature,K,APday/tasmin,day/tasmin,TRUE
+forcing,Eday,ts,Surface Temperature,surface_temperature,K,APday/ts,Eday/ts,FALSE
+forcing,day,uas,Eastward Near-Surface Wind,eastward_wind,m s-1,APday/uas,day/uas,TRUE
+forcing,day,vas,Northward Near-Surface Wind,northward_wind,m s-1,APday/vas,day/vas,TRUE
+forcing,fx,sftlf,Percentage of the Grid Cell Occupied by Land (Including Lakes),land_area_fraction,%,APfx/sftlf,fx/sftlf,FALSE
+forcing,Amon,co2,Mole Fraction of CO2,mole_fraction_of_carbon_dioxide_in_air,mol mol-1,APmon/co2,Amon/co2,TRUE
+forcing,Emon,co2s,Atmosphere CO2,mole_fraction_of_carbon_dioxide_in_air,0.000001,APmon/co2s,Emon/co2s,FALSE
+forcing,Amon,evspsbl,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,kg m-2 s-1,APmon/evspsbl,Amon/evspsbl,TRUE
+forcing,Amon,hfls,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,W m-2,APmon/hfls,Amon/hfls,TRUE
+forcing,Amon,hfss,Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,W m-2,APmon/hfss,Amon/hfss,TRUE
+forcing,Amon,huss,Near-Surface Specific Humidity,specific_humidity,1,APmon/huss,Amon/huss,TRUE
+forcing,Amon,pr,Precipitation,precipitation_flux,kg m-2 s-1,APmon/pr,Amon/pr,TRUE
+forcing,Amon,prsn,Snowfall Flux,snowfall_flux,kg m-2 s-1,APmon/prsn,Amon/prsn,TRUE
+forcing,Amon,ps,Surface Air Pressure,surface_air_pressure,Pa,APmon/ps,Amon/ps,TRUE
+forcing,Amon,psl,Sea Level Pressure,air_pressure_at_mean_sea_level,Pa,APmon/psl,Amon/psl,TRUE
+forcing,Amon,rlds,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,W m-2,APmon/rlds,Amon/rlds,TRUE
+forcing,Amon,rlus,Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,W m-2,APmon/rlus,Amon/rlus,TRUE
+forcing,Amon,rsds,Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,W m-2,APmon/rsds,Amon/rsds,TRUE
+forcing,Amon,rsus,Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,W m-2,APmon/rsus,Amon/rsus,TRUE
+forcing,Amon,sfcWind,Near-Surface Wind Speed,wind_speed,m s-1,APmon/sfcWind,Amon/sfcWind,TRUE
+forcing,Emon,sfcWindmax,Daily Maximum Near-Surface Wind Speed,wind_speed,m s-1,APmon/sfcWindmax,Emon/sfcWindmax,FALSE
+forcing,Amon,tas,Near-Surface Air Temperature,air_temperature,K,APmon/tas,Amon/tas,TRUE
+forcing,Amon,ts,Surface Temperature,surface_temperature,K,APmon/ts,Amon/ts,TRUE
+esm-diagnostic,day,clt,Total Cloud Cover Percentage,cloud_area_fraction,%,day/clt,APday/clt,TRUE
+esm-diagnostic,day,hfls,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,W m-2,day/hfls,APday/hfls,TRUE
+esm-diagnostic,day,hfss,Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,W m-2,day/hfss,APday/hfss,TRUE
+esm-diagnostic,day,hur,Relative Humidity,relative_humidity,%,day/hur,APday/hur,TRUE
+esm-diagnostic,day,hus,Specific Humidity,specific_humidity,1,day/hus,APday/hus8,TRUE
+esm-diagnostic,day,mrro,Total Runoff,runoff_flux,kg m-2 s-1,day/mrro,LPday/mrro,TRUE
+esm-diagnostic,day,psl,Sea Level Pressure,air_pressure_at_mean_sea_level,Pa,day/psl,APday/psl,TRUE
+esm-diagnostic,day,rlut,TOA Outgoing Longwave Radiation,toa_outgoing_longwave_flux,W m-2,day/rlut,APday/rlut,TRUE
+esm-diagnostic,day,sfcWindmax,Daily Maximum Near-Surface Wind Speed,wind_speed,m s-1,day/sfcWindmax,APday/sfcWindmax,TRUE
+esm-diagnostic,day,snc,Snow Area Percentage,surface_snow_area_fraction,%,day/snc,LIday/snc,TRUE
+esm-diagnostic,day,ta,Air Temperature,air_temperature,K,day/ta,APday/ta8,TRUE
+esm-diagnostic,day,ua,Eastward Wind,eastward_wind,m s-1,day/ua,APday/ua8,TRUE
+esm-diagnostic,day,va,Northward Wind,northward_wind,m s-1,day/va,APday/va8,TRUE
+esm-diagnostic,day,wap,Omega (=dp/dt),lagrangian_tendency_of_air_pressure,Pa s-1,day/wap,APday/wap8,TRUE
+esm-diagnostic,Emon,cropFracC3,Percentage Cover by C3 Crops,area_fraction,%,Emon/cropFracC3,LPmon/cropFracC3,TRUE
+esm-diagnostic,Emon,cropFracC4,Percentage Cover by C4 Crops,area_fraction,%,Emon/cropFracC4,LPmon/cropFracC4,TRUE
+esm-diagnostic,Emon,fracLut,Percentage of Grid Cell for Each Land-Use Tile,area_fraction,%,Emon/fracLut,LPmon/fracLut,TRUE
+esm-diagnostic,Emon,grassFracC3,C3 Natural Grass Area Percentage,area_fraction,%,Emon/grassFracC3,LPmon/grassFracC3,TRUE
+esm-diagnostic,Emon,grassFracC4,C4 Natural Grass Area Percentage,area_fraction,%,Emon/grassFracC4,LPmon/grassFracC4,TRUE
+esm-diagnostic,Emon,treeFracBdlDcd,Broadleaf Deciduous Tree Area Percentage,area_fraction,%,Emon/treeFracBdlDcd,LPmon/treeFracBdlDcd,TRUE
+esm-diagnostic,Emon,treeFracBdlEvg,Broadleaf Evergreen Tree Area Percentage,area_fraction,%,Emon/treeFracBdlEvg,LPmon/treeFracBdlEvg,TRUE
+esm-diagnostic,Emon,treeFracNdlDcd,Needleleaf Deciduous Tree Area Percentage,area_fraction,%,Emon/treeFracNdlDcd,LPmon/treeFracNdlDcd,TRUE
+esm-diagnostic,Emon,treeFracNdlEvg,Needleleaf Evergreen Tree Area Percentage,area_fraction,%,Emon/treeFracNdlEvg,LPmon/treeFracNdlEvg,TRUE
+esm-diagnostic,Emon,vegFrac,Total Vegetated Percentage Cover,area_fraction,%,Emon/vegFrac,LPmon/vegFrac,TRUE
+forcing,IfxGre,hfgeoubed,Geothermal Heat Flux Beneath Land Ice,upward_geothermal_heat_flux_at_ground_level_in_land_ice,W m-2,GIGfx/hfgeoubed,IfxGre/hfgeoubed,FALSE
+forcing,IfxGre,lithk,Ice Sheet Thickness,land_ice_thickness,m,GIGfx/lithk,IfxGre/lithk,FALSE
+forcing,IfxGre,topg,Bedrock Altitude,bedrock_altitude,m,GIGfx/topg,IfxGre/topg,FALSE
+forcing,ImonGre,hfls,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,W m-2,GIGmon/hfls,ImonGre/hfls,FALSE
+forcing,ImonGre,prra,Rainfall Flux over Land Ice,rainfall_flux,kg m-2 s-1,GIGmon/prra,ImonGre/prra,FALSE
+forcing,ImonGre,prsn,Snowfall Flux,snowfall_flux,kg m-2 s-1,GIGmon/prsn,ImonGre/prsn,FALSE
+forcing,ImonGre,snicem,Surface Snow and Ice Melt Flux,surface_snow_and_ice_melt_flux,kg m-2 s-1,GIGmon/snicem,ImonGre/snicem,FALSE
+forcing,day,snw,Surface Snow Amount,surface_snow_amount,kg m-2,LIday/snw,day/snw,TRUE
+forcing,LImon,acabfIs,Ice Sheet Surface Mass Balance Flux,land_ice_surface_specific_mass_balance_flux,kg m-2 s-1,LImon/acabfIs,LImon/acabfIs,FALSE
+forcing,LImon,hflsIs,Ice Sheet Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,W m-2,LImon/hflsIs,LImon/hflsIs,FALSE
+forcing,LImon,hfssIs,Ice Sheet Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,W m-2,LImon/hfssIs,LImon/hfssIs,FALSE
+forcing,LImon,orogIs,Ice Sheet Surface Altitude,surface_altitude,m,LImon/orogIs,LImon/orogIs,FALSE
+forcing,LImon,rldsIs,Ice Sheet Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,W m-2,LImon/rldsIs,LImon/rldsIs,FALSE
+forcing,LImon,rlusIs,Ice Sheet Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,W m-2,LImon/rlusIs,LImon/rlusIs,FALSE
+forcing,LImon,rsdsIs,Ice Sheet Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,W m-2,LImon/rsdsIs,LImon/rsdsIs,FALSE
+forcing,LImon,rsusIs,Ice Sheet Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,W m-2,LImon/rsusIs,LImon/rsusIs,FALSE
+forcing,LImon,sbl,Surface Snow and Ice Sublimation Flux,tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice,kg m-2 s-1,LImon/sbl,LImon/sbl,TRUE
+forcing,Amon,sbl,Surface Snow and Ice Sublimation Flux,tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice,kg m-2 s-1,LImon/sbl,Amon/sbl,TRUE
+forcing,LImon,sftflf,Floating Ice Shelf Area Percentage,floating_ice_shelf_area_fraction,%,LImon/sftflf,LImon/sftflf,TRUE
+forcing,LImon,sftgrf,Grounded Ice Sheet Area Percentage,grounded_ice_sheet_area_fraction,%,LImon/sftgrf,LImon/sftgrf,TRUE
+forcing,LImon,snc,Snow Area Percentage,surface_snow_area_fraction,%,LImon/snc,LImon/snc,TRUE
+forcing,LImon,snd,Snow Depth,surface_snow_thickness,m,LImon/snd,LImon/snd,TRUE
+esm-diagnostic,LImon,snm,Surface Snow Melt,surface_snow_melt_flux,kg m-2 s-1,LImon/snm,LImon/snm,TRUE
+forcing,LImon,snw,Surface Snow Amount,surface_snow_amount,kg m-2,LImon/snw,LImon/snw,TRUE
+forcing,LImon,tsn,Snow Internal Temperature,temperature_in_surface_snow,K,LImon/tsn,LImon/tsn,TRUE
+esm-diagnostic,Lmon,cropFrac,Percentage Crop Cover,area_fraction,%,Lmon/cropFrac,LPmon/cropFrac,TRUE
+esm-diagnostic,Lmon,grassFrac,Natural Grass Area Percentage,area_fraction,%,Lmon/grassFrac,LPmon/grassFrac,TRUE
+esm-diagnostic,Lmon,mrfso,Soil Frozen Water Content,soil_frozen_water_content,kg m-2,Lmon/mrfso,LPmon/mrfso,TRUE
+esm-diagnostic,Lmon,mrsos,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,kg m-2,Lmon/mrsos,LPmon/mrsos,TRUE
+esm-diagnostic,Lmon,pastureFrac,Percentage of Land Which Is Anthropogenic Pasture,area_fraction,%,Lmon/pastureFrac,LPmon/pastureFrac,TRUE
+esm-diagnostic,Lmon,residualFrac,Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil,area_fraction,%,Lmon/residualFrac,LPmon/residualFrac,TRUE
+esm-diagnostic,Lmon,shrubFrac,Percentage Cover by Shrub,area_fraction,%,Lmon/shrubFrac,LPmon/shrubFrac,TRUE
+esm-diagnostic,Lmon,treeFrac,Tree Cover Percentage,area_fraction,%,Lmon/treeFrac,LPmon/treeFrac,TRUE
+forcing,Eday,albsn,Snow Albedo,surface_albedo,1,LPday/alsbn,Eday/albsn,FALSE
+forcing,Eday,mrrob,Subsurface Runoff,subsurface_runoff_flux,kg m-2 s-1,LPday/mrrob,Eday/mrrob,FALSE
+forcing,day,mrso,Total Soil Moisture Content,mass_content_of_water_in_soil,kg m-2,LPday/mrso,day/mrso,TRUE
+forcing,day,mrsos,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,kg m-2,LPday/mrsos,day/mrsos,TRUE
+forcing,Efx,fldcapacity,Field Capacity,volume_fraction_of_condensed_water_in_soil_at_field_capacity,%,LPfx/fldcapacity,Efx/fldcapacity,FALSE
+forcing,fx,mrsofc,Capacity of Soil to Store Water (Field Capacity),soil_moisture_content_at_field_capacity,kg m-2,LPfx/mrsofc,fx/mrsofc,FALSE
+forcing,fx,rootd,Maximum Root Depth,root_depth,m,LPfx/rootd,fx/rootd,FALSE
+forcing,Efx,slthick,Thickness of Soil Layers,cell_thickness,m,LPfx/slthick,Efx/slthick,FALSE
+forcing,Efx,wilt,Wilting Point,volume_fraction_of_condensed_water_in_soil_at_wilting_point,%,LPfx/wilt,Efx/wilt,FALSE
+forcing,Lmon,baresoilFrac,Bare Soil Percentage Area Coverage,area_fraction,%,LPmon/baresoilFrac,Lmon/baresoilFrac,TRUE
+forcing,Lmon,burntFractionAll,Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes),area_fraction,%,LPmon/burntFractionAll,Lmon/burntFractionAll,TRUE
+forcing,Lmon,c3PftFrac,Percentage Cover by C3 Plant Functional Type,area_fraction,%,LPmon/c3PftFrac,Lmon/c3PftFrac,TRUE
+forcing,Lmon,c4PftFrac,Percentage Cover by C4 Plant Functional Type,area_fraction,%,LPmon/c4PftFrac,Lmon/c4PftFrac,TRUE
+forcing,Emon,cLand,Total Carbon in All Terrestrial Carbon Pools,mass_content_of_carbon_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products,kg m-2,LPmon/cLand,Emon/cLand,FALSE
+forcing,Lmon,cLeaf,Carbon Mass in Leaves,leaf_mass_content_of_carbon,kg m-2,LPmon/cLeaf,Lmon/cLeaf,FALSE
+forcing,Lmon,cLitter,Carbon Mass in Litter Pool,litter_mass_content_of_carbon,kg m-2,LPmon/cLitter,Lmon/cLitter,TRUE
+forcing,Lmon,cProduct,Carbon Mass in Products of Land-Use Change,carbon_mass_content_of_forestry_and_agricultural_products,kg m-2,LPmon/cProduct,Lmon/cProduct,TRUE
+forcing,Lmon,cRoot,Carbon Mass in Roots,root_mass_content_of_carbon,kg m-2,LPmon/cRoot,Lmon/cRoot,FALSE
+forcing,Lmon,cropFrac,Percentage Crop Cover,area_fraction,%,LPmon/cropFrac,Lmon/cropFrac,TRUE
+forcing,Emon,cSoil,Carbon Mass in Model Soil Pool,soil_mass_content_of_carbon,kg m-2,LPmon/cSoil,Emon/cSoil,TRUE
+forcing,Emon,cSoilLevels,Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level),soil_mass_content_of_carbon,kg m-2,LPmon/cSoilLevels,Emon/cSoilLevels,FALSE
+forcing,Lmon,cVeg,Carbon Mass in Vegetation,vegetation_carbon_content,kg m-2,LPmon/cVeg,Lmon/cVeg,TRUE
+forcing,Emon,cWood,Carbon Mass in Wood,stem_mass_content_of_carbon,kg m-2,LPmon/cWood,Emon/cWood,FALSE
+forcing,Emon,evspsblpot,Potential Evapotranspiration,water_potential_evaporation_flux,kg m-2 s-1,LPmon/evspsblpot,Emon/evspsblpot,FALSE
+forcing,Lmon,evspsblsoi,Water Evaporation from Soil,water_evaporation_flux_from_soil,kg m-2 s-1,LPmon/evspsblsoi,Lmon/evspsblsoi,TRUE
+forcing,Lmon,evspsblveg,Evaporation from Canopy,water_evaporation_flux_from_canopy,kg m-2 s-1,LPmon/evspsblveg,Lmon/evspsblveg,TRUE
+forcing,Emon,fAnthDisturb,"Carbon Mass Flux from Vegetation, Litter or Soil Pools into the Atmosphere Due to any Human Activity [kgC m-2 s-1]",tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission,kg m-2 s-1,LPmon/fAnthDisturb,Emon/fAnthDisturb,FALSE
+forcing,Emon,fDeforestToAtmos,Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1],surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change,kg m-2 s-1,LPmon/fDeforestToAtmos,Emon/fDeforestToAtmos,FALSE
+forcing,Emon,fDeforestToProduct,Deforested Biomass That Goes into Product Pool as a Result of Anthropogenic Land-Use Change,carbon_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change,kg m-2 s-1,LPmon/fDeforestToProduct,Emon/fDeforestToProduct,FALSE
+forcing,Lmon,fFire,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Excluding Land-Use Change [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires_excluding_anthropogenic_land_use_change,kg m-2 s-1,LPmon/fFire,Lmon/fFire,TRUE
+forcing,Emon,fFireAll,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Including All Sources [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires,kg m-2 s-1,LPmon/fFireAll,Emon/fFireAll,FALSE
+forcing,Emon,fFireNat,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Natural Fire [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_fires,kg m-2 s-1,LPmon/fFireNat,Emon/fFireNat,FALSE
+forcing,Lmon,fLitterSoil,Total Carbon Mass Flux from Litter to Soil,carbon_mass_flux_into_soil_from_litter,kg m-2 s-1,LPmon/fLitterSoil,Lmon/fLitterSoil,TRUE
+forcing,Emon,fLuc,Net Carbon Mass Flux into Atmosphere Due to Land-Use Change [kgC m-2 s-1],surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change,kg m-2 s-1,LPmon/fLuc,Emon/fLuc,TRUE
+forcing,Emon,fNdep,Dry and Wet Deposition of Reactive Nitrogen onto Land,minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition,kg m-2 s-1,LPmon/fNdep,Emon/fNdep,FALSE
+forcing,Lmon,fVegLitter,Total Carbon Mass Flux from Vegetation to Litter,mass_flux_of_carbon_into_litter_from_vegetation,kg m-2 s-1,LPmon/fVegLitter,Lmon/fVegLitter,TRUE
+forcing,Lmon,gpp,Carbon Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1],gross_primary_productivity_of_biomass_expressed_as_carbon,kg m-2 s-1,LPmon/gpp,Lmon/gpp,TRUE
+forcing,Lmon,grassFrac,Natural Grass Area Percentage,area_fraction,%,LPmon/grassFrac,Lmon/grassFrac,TRUE
+forcing,Lmon,lai,Leaf Area Index,leaf_area_index,1,LPmon/lai,Lmon/lai,TRUE
+forcing,Lmon,landCoverFrac,Percentage of Area by Vegetation or Land-Cover Category,area_fraction,%,LPmon/landCoverFrac,Lmon/landCoverFrac,FALSE
+forcing,Lmon,mrro,Total Runoff,runoff_flux,kg m-2 s-1,LPmon/mrro,Lmon/mrro,TRUE
+forcing,Lmon,mrros,Surface Runoff,surface_runoff_flux,kg m-2 s-1,LPmon/mrros,Lmon/mrros,TRUE
+forcing,Emon,mrsfl,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,kg m-2,LPmon/mrsfl,Emon/mrsfl,FALSE
+forcing,Emon,mrsll,Liquid Water Content of Soil Layer,liquid_water_content_of_soil_layer,kg m-2,LPmon/mrsll,Emon/mrsll,FALSE
+forcing,Lmon,mrso,Total Soil Moisture Content,mass_content_of_water_in_soil,kg m-2,LPmon/mrso,Lmon/mrso,TRUE
+forcing,Emon,mrsol,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,kg m-2,LPmon/mrsol,Emon/mrsol,TRUE
+forcing,Lmon,nbp,Carbon Mass Flux out of Atmosphere Due to Net Biospheric Production on Land [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes,kg m-2 s-1,LPmon/nbp,Lmon/nbp,TRUE
+forcing,Emon,nep,Net Carbon Mass Flux out of Atmosphere Due to Net Ecosystem Productivity on Land [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes_excluding_anthropogenic_land_use_change,kg m-2 s-1,LPmon/nep,Emon/nep,TRUE
+forcing,Emon,netAtmosLandCO2Flux,Net Flux of CO2 Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1],surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes,kg m-2 s-1,LPmon/netAtmosLandCO2Flux,Emon/netAtmosLandCO2Flux,FALSE
+forcing,Lmon,npp,Net Primary Production on Land as Carbon Mass Flux [kgC m-2 s-1],net_primary_productivity_of_biomass_expressed_as_carbon,kg m-2 s-1,LPmon/npp,Lmon/npp,TRUE
+forcing,Emon,nwdFracLut,Non-Woody Vegetation Percentage Cover,area_fraction,%,LPmon/nwdFracLut,Emon/nwdFracLut,TRUE
+forcing,Emon,orog,Surface Altitude,surface_altitude,m,LPmon/ororg,Emon/orog,TRUE
+forcing,Lmon,pastureFrac,Percentage of Land Which Is Anthropogenic Pasture,area_fraction,%,LPmon/pastureFrac,Lmon/pastureFrac,TRUE
+forcing,Lmon,ra,Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration,kg m-2 s-1,LPmon/ra,Lmon/ra,TRUE
+forcing,Lmon,residualFrac,Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil,area_fraction,%,LPmon/residualFrac,Lmon/residualFrac,TRUE
+forcing,Lmon,rh,Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1],surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration,kg m-2 s-1,LPmon/rh,Lmon/rh,TRUE
+forcing,Emon,rhSoil,Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land,surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil,kg m-2 s-1,LPmon/rhSoil,Emon/rhSoil,FALSE
+forcing,LImon,sftgif,Land Ice Area Percentage,land_ice_area_fraction,%,LPmon/sftgif,LImon/sftgif,TRUE
+forcing,Lmon,shrubFrac,Percentage Cover by Shrub,area_fraction,%,LPmon/shrubFrac,Lmon/shrubFrac,TRUE
+forcing,Lmon,tran,Transpiration,transpiration_flux,kg m-2 s-1,LPmon/tran,Lmon/tran,TRUE
+forcing,Lmon,treeFrac,Tree Cover Percentage,area_fraction,%,LPmon/treeFrac,Lmon/treeFrac,TRUE
+forcing,Lmon,tsl,Temperature of Soil,soil_temperature,K,LPmon/tsl,Lmon/tsl,FALSE
+forcing,Emon,vegFrac,Total Vegetated Percentage Cover,area_fraction,%,LPmon/vegFrac,Emon/vegFrac,TRUE
+forcing,Emon,wetlandFrac,Wetland Percentage Cover,area_fraction,%,LPmon/wetlandFrac,Emon/wetlandFrac,TRUE
+esm-diagnostic,Oday,tossq,Square of Sea Surface Temperature,square_of_sea_surface_temperature,degC2,Oday/tossq,OPday/tossq,TRUE
+esm-diagnostic,Omon,chlos,Surface Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water,mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water,kg m-3,Omon/chlos,OBmon/chlos,TRUE
+esm-diagnostic,Omon,epc100,Downward Flux of Particulate Organic Carbon,sinking_mole_flux_of_particulate_organic_matter_expressed_as_carbon_in_sea_water,mol m-2 s-1,Omon/epc100,OBmon/epc100,TRUE
+esm-diagnostic,Omon,epcalc100,Downward Flux of Calcite,sinking_mole_flux_of_calcite_expressed_as_carbon_in_sea_water,mol m-2 s-1,Omon/epcalc100,OBmon/epcalc100,TRUE
+esm-diagnostic,Omon,fgco2,Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1],surface_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon,kg m-2 s-1,Omon/fgco2,OBmon/fgco2,TRUE
+esm-diagnostic,Omon,fgo2,Surface Downward Flux of O2,surface_downward_mole_flux_of_molecular_oxygen,mol m-2 s-1,Omon/fgo2,OBmon/fgo2,TRUE
+esm-diagnostic,Omon,intpp,Primary Organic Carbon Production by All Types of Phytoplankton,net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_phytoplankton,mol m-2 s-1,Omon/intpp,OBmon/intpp,TRUE
+esm-diagnostic,Omon,no3os,Surface Dissolved Nitrate Concentration,mole_concentration_of_nitrate_in_sea_water,mol m-3,Omon/no3os,OBmon/no3os,TRUE
+esm-diagnostic,Omon,o2os,Surface Dissolved Oxygen Concentration,mole_concentration_of_dissolved_molecular_oxygen_in_sea_water,mol m-3,Omon/o2os,OBmon/o2os,TRUE
+esm-diagnostic,Omon,obvfsq,Square of Brunt Vaisala Frequency in Sea Water,square_of_brunt_vaisala_frequency_in_sea_water,s-2,Omon/obvfsq,OPmonLev/obvfsq,TRUE
+esm-diagnostic,Omon,po4os,Surface Total Dissolved Inorganic Phosphorus Concentration,mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water,mol m-3,Omon/po4os,OBmon/po4os,TRUE
+esm-diagnostic,Omon,sob,Sea Water Salinity at Sea Floor,sea_water_salinity_at_sea_floor,0.001,Omon/sob,OPmon/sob,TRUE
+esm-diagnostic,Omon,soga,Global Mean Sea Water Salinity,sea_water_salinity,0.001,Omon/soga,OPmon/soga,TRUE
+esm-diagnostic,Omon,sosga,Global Average Sea Surface Salinity,sea_surface_salinity,0.001,Omon/sosga,OPmon/sosga,TRUE
+esm-diagnostic,Omon,spco2,Surface Aqueous Partial Pressure of CO2,surface_partial_pressure_of_carbon_dioxide_in_sea_water,Pa,Omon/spco2,OBmon/spco2,TRUE
+esm-diagnostic,Omon,talk,Total Alkalinity,sea_water_alkalinity_expressed_as_mole_equivalent,mol m-3,Omon/talk,OBmonLev/talk,TRUE
+esm-diagnostic,Omon,tauuo,Sea Water Surface Downward X Stress,downward_x_stress_at_sea_water_surface,N m-2,Omon/tauuo,OPmon/tauuo,TRUE
+esm-diagnostic,Omon,tauvo,Sea Water Surface Downward Y Stress,downward_y_stress_at_sea_water_surface,N m-2,Omon/tauvo,OPmon/tauvo,TRUE
+esm-diagnostic,Omon,thetaoga,Global Average Sea Water Potential Temperature,sea_water_potential_temperature,degC,Omon/thetaoga,OPmon/thetaoga,TRUE
+esm-diagnostic,Omon,tob,Sea Water Potential Temperature at Sea Floor,sea_water_potential_temperature_at_sea_floor,degC,Omon/tob,OPmon/tob,TRUE
+esm-diagnostic,Omon,tosga,Global Average Sea Surface Temperature,sea_surface_temperature,degC,Omon/tosga,OPmon/tosga,TRUE
+esm-diagnostic,Omon,wmo,Upward Ocean Mass Transport,upward_ocean_mass_transport,kg s-1,Omon/wmo,OPmonLev/wmo,TRUE
+esm-diagnostic,Omon,wo,Sea Water Vertical Velocity,upward_sea_water_velocity,m s-1,Omon/wo,OPmonLev/wo,TRUE
+esm-diagnostic,Omon,zostoga,Global Average Thermosteric Sea Level Change,global_average_thermosteric_sea_level_change,m,Omon/zostoga,OPmon/zostoga,TRUE
+forcing,Oday,tos,Sea Surface Temperature,sea_surface_temperature,degC,OPday/tos,Oday/tos,TRUE
+forcing,Omon,evs,Water Evaporation Flux Where Ice Free Ocean over Sea,water_evapotranspiration_flux,kg m-2 s-1,OPmon/evs,Omon/evs,FALSE
+forcing,Omon,friver,Water Flux into Sea Water from Rivers,water_flux_into_sea_water_from_rivers,kg m-2 s-1,OPmon/friver,Omon/friver,FALSE
+forcing,Omon,hfds,Downward Heat Flux at Sea Water Surface,surface_downward_heat_flux_in_sea_water,W m-2,OPmon/hfds,Omon/hfds,TRUE
+forcing,Omon,hfx,Ocean Heat X Transport,ocean_heat_x_transport,W,OPmon/hfx,Omon/hfx,FALSE
+forcing,Omon,hfy,Ocean Heat Y Transport,ocean_heat_y_transport,W,OPmon/hfy,Omon/hfy,FALSE
+forcing,Omon,masso,Sea Water Mass,sea_water_mass,kg,OPmon/masso,Omon/masso,TRUE
+forcing,Omon,mlotst,Ocean Mixed Layer Thickness Defined by Sigma T,ocean_mixed_layer_thickness_defined_by_sigma_t,m,OPmon/mlotst,Omon/mlotst,TRUE
+forcing,Omon,mlotstmax,Maximum Ocean Mixed Layer Thickness Defined by Sigma T,ocean_mixed_layer_thickness_defined_by_sigma_t,m,OPmon/mlotstmax,Omon/mlotstmax,TRUE
+forcing,Omon,mlotstmin,Minimum Ocean Mixed Layer Thickness Defined by Sigma T,ocean_mixed_layer_thickness_defined_by_sigma_t,m,OPmon/mlotstmin,Omon/mlotstmin,TRUE
+forcing,Omon,msftbarot,Ocean Barotropic Mass Streamfunction,ocean_barotropic_mass_streamfunction,kg s-1,OPmon/msftbarot,Omon/msftbarot,TRUE
+forcing,Omon,pbo,Sea Water Pressure at Sea Floor,sea_water_pressure_at_sea_floor,Pa,OPmon/pbo,Omon/pbo,TRUE
+forcing,Omon,sos,Sea Surface Salinity,sea_surface_salinity,0.001,OPmon/sos,Omon/sos,TRUE
+forcing,Omon,tos,Sea Surface Temperature,sea_surface_temperature,degC,OPmon/tos,Omon/tos,TRUE
+forcing,Omon,volo,Sea Water Volume,sea_water_volume,m3,OPmon/volo,Omon/volo,TRUE
+forcing,Omon,wfo,Water Flux into Sea Water,water_flux_into_sea_water,kg m-2 s-1,OPmon/wfo,Omon/wfo,TRUE
+forcing,Omon,zos,Sea Surface Height Above Geoid,sea_surface_height_above_geoid,m,OPmon/zos,Omon/zos,TRUE
+forcing,Omon,masscello,Ocean Grid-Cell Mass per Area,sea_water_mass_per_unit_area,kg m-2,OPmonLev/masscello,Omon/masscello,TRUE
+forcing,Omon,msftyz,Ocean Y Overturning Mass Streamfunction,ocean_y_overturning_mass_streamfunction,kg s-1,OPmonLev/msftyz,Omon/msftyz,TRUE
+forcing,Omon,so,Sea Water Salinity,sea_water_salinity,0.001,OPmonLev/so,Omon/so,TRUE
+forcing,Omon,thetao,Sea Water Potential Temperature,sea_water_potential_temperature,degC,OPmonLev/thetao,Omon/thetao,TRUE
+forcing,Omon,thkcello,Ocean Model Cell Thickness,cell_thickness,m,OPmonLev/thkcello,Omon/thkcello,FALSE
+forcing,Omon,umo,Ocean Mass X Transport,ocean_mass_x_transport,kg s-1,OPmonLev/umo,Omon/umo,TRUE
+forcing,Omon,uo,Sea Water X Velocity,sea_water_x_velocity,m s-1,OPmonLev/uo,Omon/uo,TRUE
+forcing,Omon,vmo,Ocean Mass Y Transport,ocean_mass_y_transport,kg s-1,OPmonLev/vmo,Omon/vmo,TRUE
+forcing,Omon,vo,Sea Water Y Velocity,sea_water_y_velocity,m s-1,OPmonLev/vo,Omon/vo,TRUE
+forcing,Omon,hfbasin,Northward Ocean Heat Transport,northward_ocean_heat_transport,W,OPmonZ/hfbasin,Omon/hfbasin,TRUE
+forcing,Omon,hfbasinpmadv,Northward Ocean Heat Transport Due to Parameterized Mesoscale Advection,northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_advection,W,OPmonZ/hfbasinpmadv,Omon/hfbasinpmadv,TRUE
+forcing,Omon,htovgyre,Northward Ocean Heat Transport Due to Gyre,northward_ocean_heat_transport_due_to_gyre,W,OPmonZ/htovgyre,Omon/htovgyre,FALSE
+forcing,Omon,htovovrt,Northward Ocean Heat Transport Due to Overturning,northward_ocean_heat_transport_due_to_overturning,W,OPmonZ/htovovrt,Omon/htovovrt,FALSE
+forcing,Omon,msftmz,Ocean Meridional Overturning Mass Streamfunction,ocean_meridional_overturning_mass_streamfunction,kg s-1,OPmonZ/msftmz,Omon/msftmz,TRUE
+forcing,Omon,sltovgyre,Northward Ocean Salt Transport Due to Gyre,northward_ocean_salt_transport_due_to_gyre,kg s-1,OPmonZ/sltovgyre,Omon/sltovgyre,FALSE
+forcing,Omon,sltovovrt,Northward Ocean Salt Transport Due to Overturning,northward_ocean_salt_transport_due_to_overturning,kg s-1,OPmonZ/sltovovrt,Omon/sltovovrt,FALSE
+esm-diagnostic,Oyr,dfe,Dissolved Iron Concentration,mole_concentration_of_dissolved_iron_in_sea_water,mol m-3,Oyr/dfe,OByrLev/dfe,TRUE
+esm-diagnostic,Oyr,no3,Dissolved Nitrate Concentration,mole_concentration_of_nitrate_in_sea_water,mol m-3,Oyr/no3,OByrLev/no3,TRUE
+esm-diagnostic,Oyr,o2,Dissolved Oxygen Concentration,mole_concentration_of_dissolved_molecular_oxygen_in_sea_water,mol m-3,Oyr/o2,OByrLev/o2,TRUE
+esm-diagnostic,Oyr,po4,Total Dissolved Inorganic Phosphorus Concentration,mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water,mol m-3,Oyr/po4,OByrLev/po4,TRUE
+esm-diagnostic,Oyr,si,Total Dissolved Inorganic Silicon Concentration,mole_concentration_of_dissolved_inorganic_silicon_in_sea_water,mol m-3,Oyr/si,OByrLev/si,TRUE
+esm-diagnostic,SIday,siconca,Sea-Ice Area Percentage (Atmospheric Grid),sea_ice_area_fraction,%,SIday/siconca,SIday/siconca,TRUE
+esm-diagnostic,SIday,sithick,Sea Ice Thickness,sea_ice_thickness,m,SIday/sithick,SIday/sithick,TRUE
+esm-diagnostic,SIday,siu,X-Component of Sea-Ice Velocity,sea_ice_x_velocity,m s-1,SIday/siu,SIday/siu,TRUE
+esm-diagnostic,SIday,siv,Y-Component of Sea-Ice Velocity,sea_ice_y_velocity,m s-1,SIday/siv,SIday/siv,TRUE
+esm-diagnostic,SImon,siconc,Sea-Ice Area Percentage (Ocean Grid),sea_ice_area_fraction,%,SImon/siconc,SImon/siconc,TRUE
+esm-diagnostic,SImon,siconca,Sea-Ice Area Percentage (Atmospheric Grid),sea_ice_area_fraction,%,SImon/siconca,SImon/siconca,TRUE
+esm-diagnostic,SImon,simass,Sea-Ice Mass per Area,sea_ice_amount,kg m-2,SImon/simass,SImon/simass,TRUE
+esm-diagnostic,SImon,simpconc,Percentage Cover of Sea Ice by Meltpond,area_fraction,%,SImon/simpconc,SImon/simpconc,TRUE
+esm-diagnostic,SImon,sirdgconc,Percentage Cover of Sea Ice by Ridging,area_fraction,1,SImon/sirdgconc,SImon/sirdgconc,TRUE
+esm-diagnostic,SImon,sisnconc,Snow Area Percentage,surface_snow_area_fraction,%,SImon/sisnconc,SImon/sisnconc,TRUE
+esm-diagnostic,SImon,sisnmass,Snow Mass per Area,liquid_water_content_of_surface_snow,kg m-2,SImon/sisnmass,SImon/sisnmass,TRUE
+esm-diagnostic,SImon,sisnthick,Snow Thickness,surface_snow_thickness,m,SImon/sisnthick,SImon/sisnthick,TRUE
+esm-diagnostic,SImon,sispeed,Sea-Ice Speed,sea_ice_speed,m s-1,SImon/sispeed,SImon/sispeed,TRUE
+esm-diagnostic,SImon,sitemptop,Surface Temperature of Sea Ice,sea_ice_surface_temperature,K,SImon/sitemptop,SImon/sitemptop,TRUE
+esm-diagnostic,SImon,sithick,Sea Ice Thickness,sea_ice_thickness,m,SImon/sithick,SImon/sithick,TRUE
+esm-diagnostic,SImon,sitimefrac,Fraction of Time Steps with Sea Ice,fraction_of_time_with_sea_ice_area_fraction_above_threshold,1,SImon/sitimefrac,SImon/sitimefrac,TRUE
+esm-diagnostic,SImon,siu,X-Component of Sea-Ice Velocity,sea_ice_x_velocity,m s-1,SImon/siu,SImon/siu,TRUE
+esm-diagnostic,SImon,siv,Y-Component of Sea-Ice Velocity,sea_ice_y_velocity,m s-1,SImon/siv,SImon/siv,TRUE
+esm-diagnostic,SImon,sivol,Sea-Ice Volume per Area,sea_ice_thickness,m,SImon/sivol,SImon/sivol,TRUE
